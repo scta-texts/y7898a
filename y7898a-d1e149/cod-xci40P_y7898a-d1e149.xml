@@ -1,93 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#Augustine">Augustinus</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-04-11">April 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-04-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on"/>
-      </front>
-      <body>
-         <div xml:id="y7898a-d1e149">
-            <head xml:id="y7898a-d1e149-Hd1e107">Quaestio 2</head>
-            <p xml:id="y7898a-d1e149-d1e110">
-               <lb ed="#PL"/> QUAEST. II. De personarum distinctione, vel de ge­
-      <lb ed="#PL"/> niti Filii persona satisfactum mihi esse arbitror :
-      <lb ed="#PL"/> nunc quaero quid credas de Spiritu sancto; utrum et
-      <lb ed="#PL"/> ipse ingenitus sit, an genitus.</p>
-            <p xml:id="y7898a-d1e149-d1e121">RESP. Spiritnm sanctum neqne ingenitum, neque
-      <lb ed="#PL"/> genitum fides certa declarat. Quia si dixerimus inge­
-      <lb ed="#PL"/> nitum, duos patres affirmare videbimur : si autem
-      <lb ed="#PL"/> genitum, tunc duos lilios credere culpabimur. Sed
-      <lb ed="#PL"/> quod certa fides tenet, nec iugenitus est, nec geni­
-      <lb ed="#PL"/> tus; sed ab utroque procedens, id est, et a Patre et
-      <lb ed="#PL"/> a Filio. Et ut haec testimoniis approbem, ipsum Do­
-      <lb ed="#PL"/> minum nostrum Jesum Christum discipulos suos audi
-      <lb ed="#PL"/> docentem : Cum autem venerit, inquit, Paracletus
-        <lb ed="#PL"/> quem ego mittam vobis a Patre, Spiritum veritatis qui
-      <lb ed="#PL"/>
-      a Patre procedit, ille testimonium perhibebil de
-      me
-      <lb ed="#PL"/>
-      (Joan. xv, 26). Et rursum ipse Dominus noster Jesus
-      <lb ed="#PL"/> Christus, post resurrectionem suam, ut ostenderet
-      <lb ed="#PL"/> a se procedere Spiritum sanctum sicut a Patre, in­
-      <lb ed="#PL"/> sufflans in discipulos suos ait, Accipite Spiritum san­
-        <lb ed="#PL"/> tum (Id. xx , 22) : item, Ego mittam promissum l'a-
-      <lb ed="#PL"/> tris mei in vos (Luc. xxiv, 49). Unus ergo Spiritus 
-      <lb ed="#PL"/>
-               <pb ed="#PL" n="735"/>
-      ist Patris et Filii, unus amborum Spiritus. Igitur
-      <lb ed="#PL"/> quod Patris sit Spiritus, ipse Dominus ct Salva tor
-      <lb ed="#PL"/> noster discipulis suis ait : Non enim vos eatis
-        qui to­
-        <lb ed="#PL"/> quimini, sed Spiritus Patria vestri, qui loquitur in vo­
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Augustine">Augustinus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-04-11">April 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="y7898a-d1e149">
+        <head xml:id="y7898a-d1e149-Hd1e107">Quaestio 2</head>
+        <p xml:id="y7898a-d1e149-d1e110">
+          <lb ed="#PL"/> QUAEST. II. De personarum distinctione, vel de ge­
+          <lb ed="#PL"/> niti Filii persona satisfactum mihi esse arbitror :
+          <lb ed="#PL"/> nunc quaero quid credas de Spiritu sancto; utrum et
+          <lb ed="#PL"/> ipse ingenitus sit, an genitus.
+        </p>
+        <p xml:id="y7898a-d1e149-d1e121">
+          RESP. Spiritum sanctum neque ingenitum, neque
+          <lb ed="#PL"/> genitum fides certa declarat. Quia si dixerimus 
+          inge<lb ed="#PL" break="no"/>nitum, duos patres affirmare videbimur : si autem
+          <lb ed="#PL"/> genitum, tunc duos filios credere culpabimur. Sed
+          <lb ed="#PL"/> quod certa fides tenet, nec ingenitus est, nec geni­
+          <lb ed="#PL"/> tus; sed ab utroque procedens, id est, et a Patre et
+          <lb ed="#PL"/> a Filio. Et ut haec testimoniis approbem, ipsum Do­
+          <lb ed="#PL"/> minum nostrum Jesum Christum discipulos suos audi
+          <lb ed="#PL"/> docentem : Cum autem venerit, inquit, Paracletus
+          <lb ed="#PL"/> quem ego mittam vobis a Patre, Spiritum veritatis qui
+          <lb ed="#PL"/>a Patre procedit, ille testimonium perhibebil de me
+          <lb ed="#PL"/>(Joan. xv, 26). Et rursum ipse Dominus noster Jesus
+          <lb ed="#PL"/> Christus, post resurrectionem suam, ut ostenderet
+          <lb ed="#PL"/> a se procedere Spiritum sanctum sicut a Patre, in­
+          <lb ed="#PL"/> sufflans in discipulos suos ait, Accipite Spiritum san­
+          <lb ed="#PL"/> tum (Id. xx , 22) : item, Ego mittam promissum l'a-
+          <lb ed="#PL"/> tris mei in vos (Luc. xxiv, 49). Unus ergo Spiritus 
+          <lb ed="#PL"/>
+          <pb ed="#PL" n="735"/>
+          ist Patris et Filii, unus amborum Spiritus. Igitur
+          <lb ed="#PL"/> quod Patris sit Spiritus, ipse Dominus ct Salva tor
+          <lb ed="#PL"/> noster discipulis suis ait : Non enim vos eatis
+          qui to­
+          <lb ed="#PL"/> quimini, sed Spiritus Patria vestri, qui loquitur in vo­
           <lb ed="#PL"/> bia (Matili. x , 20). Et quod idem et Filii sit Spiri­
-      <lb ed="#PL"/> tus, Paulus apostolus testis est : Si quis autem in­
-      <lb ed="#PL"/> quit, Spiritum Christi non habet, hic non est ejus (Rom.
-      <lb ed="#PL"/> VIII, 9).
-    </p>
-         </div>
-      </body>
-   </text>
+          <lb ed="#PL"/> tus, Paulus apostolus testis est : Si quis autem in­
+          <lb ed="#PL"/> quit, Spiritum Christi non habet, hic non est ejus (Rom.
+          <lb ed="#PL"/> VIII, 9).
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

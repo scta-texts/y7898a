@@ -1,131 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#Augustine">Augustinus</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-04-11">April 11, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-04-11" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on"/>
-      </front>
-      <body>
-         <div xmlns="" xml:id="y7898a-d1e223">
-            <head>Quaestio 2</head>
-            <p>
-      QUAEST. III. De singulis personis, quod alius sit Pa­
-      <lb ed="#PL"/> ter, alius Filius, alius Spiritus sancius; vel quod
-      <lb ed="#PL"/> Filius sit genitus, et Spiritus sanctus procedens, se­
-      <lb ed="#PL"/> cundum Scripluras sanctas advertimus : nunc vero
-      <lb ed="#PL"/> illud scire cupio, si Deus sit Filius aut Spiritus san­
-      <lb ed="#PL"/> ctus, vel utrum una sit substantia vel essentia, quam
-      <lb ed="#PL"/> Graeci <foreign xml:lang="grc">ο̇μουτίαν</foreign> vocant</p>
-            <p>RESp. Intento animo adverte : quae te movent li­
-      <lb ed="#PL"/> bentius demonstrabo. Beatus Paulus apostolus, quod
-      <lb ed="#PL"/> Filius sit Deus, ad Romanos scribens de Israelitis :
-      <lb ed="#PL"/>
-      Quorum patres , inquit, ex quibus est Christus
-      secun­
-      <lb ed="#PL"/>
-      dum carnem, qui est super omnia Deus benedictus in
-      <lb ed="#PL"/>
-      saecula (Id. IX, 5). Et iterum in Evangelio secnn­
-      <lb ed="#PL"/> dum Joannem : Ut cognoscant, inquit, te solum ve­
-        <lb ed="#PL"/> rum Deum, et quem misisti Jesum Christum (Joan.
-      <lb ed="#PL"/> XVII, 3). Ordo est verborum : Ut cognoscant te, et
-      <lb ed="#PL"/> quem misisti Josum Christum solum verum Deum.
-      <lb ed="#PL"/> Ei rursus alia Scriptura dicit: Ut simus in vero
-        ejus
-        <lb ed="#PL"/> Filio Jesu Christo ; ipse est verus Deus et vita aeterna
-      <lb ed="#PL"/> (I Joan. v , 20). Et ut aequalitatem suain ostendat,
-      <lb ed="#PL"/> ait ipse Dominus : Ego et Pater unum sumus
-        (Joan.
-      <lb ed="#PL"/> x, 30) Unum sunt, scilicet natura, non persona. Et
-      <lb ed="#PL"/> iterum : Propterea, inquit, quaerebant Judaei
-      Jesum
-        <lb ed="#PL"/> interficere, quia non solum solvebat
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Augustine">Augustinus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>           
+          <resp>Continued OCR correction</resp>         
+        </respStmt>         
+        <!--<respStmt>                
+          <p>Derived from Initial OCR correction in          
+          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml
+          </p>
+          </respStmt> 
+        -->
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-04-11">April 11, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="y7898a-d1e223">
+        <head xml:id="y7898a-d1e223-Hd1e102">Quaestio 2</head>
+        <p xml:id="y7898a-d1e223-d1e105">
+          QUAEST. III. De singulis personis, quod alius sit Pa­
+          <lb ed="#PL"/> ter, alius Filius, alius Spiritus sancius; vel quod
+          <lb ed="#PL"/> Filius sit genitus, et Spiritus sanctus procedens, se­
+          <lb ed="#PL"/> cundum Scripluras sanctas advertimus : nunc vero
+          <lb ed="#PL"/> illud scire cupio, si Deus sit Filius aut Spiritus san­
+          <lb ed="#PL"/> ctus, vel utrum una sit substantia vel essentia, quam
+          <lb ed="#PL"/> Graeci <foreign xml:lang="grc">ο̇μουτίαν</foreign> vocant</p>
+        <p xml:id="y7898a-d1e223-d1e124">RESp. Intento animo adverte : quae te movent li­
+          <lb ed="#PL"/> bentius demonstrabo. Beatus Paulus apostolus, quod
+          <lb ed="#PL"/> Filius sit Deus, ad Romanos scribens de Israelitis :
+          <lb ed="#PL"/>
+          Quorum patres , inquit, ex quibus est Christus
+          secun­
+          <lb ed="#PL"/>
+          dum carnem, qui est super omnia Deus benedictus in
+          <lb ed="#PL"/>
+          saecula (Id. IX, 5). Et iterum in Evangelio secnn­
+          <lb ed="#PL"/> dum Joannem : Ut cognoscant, inquit, te solum ve­
+          <lb ed="#PL"/> rum Deum, et quem misisti Jesum Christum (Joan.
+          <lb ed="#PL"/> XVII, 3). Ordo est verborum : Ut cognoscant te, et
+          <lb ed="#PL"/> quem misisti Josum Christum solum verum Deum.
+          <lb ed="#PL"/> Ei rursus alia Scriptura dicit: Ut simus in vero
+          ejus
+          <lb ed="#PL"/> Filio Jesu Christo ; ipse est verus Deus et vita aeterna
+          <lb ed="#PL"/> (I Joan. v , 20). Et ut aequalitatem suain ostendat,
+          <lb ed="#PL"/> ait ipse Dominus : Ego et Pater unum sumus
+          (Joan.
+          <lb ed="#PL"/> x, 30) Unum sunt, scilicet natura, non persona. Et
+          <lb ed="#PL"/> iterum : Propterea, inquit, quaerebant Judaei
+          Jesum
+          <lb ed="#PL"/> interficere, quia non solum solvebat
           sabbatum, sed et
           <lb ed="#PL"/> Patrem suum dicebat Deum, aequalem se
-            faciens Deo
-            <lb ed="#PL"/> (Id. v, 18). Et rursum bcatus apostolus Paulus : Qui
-              <lb ed="#PL"/> cum in forma Dei ess t, non rapinam arbitratus eat
-                <lb ed="#PL"/> esse se aequalem Deo (Philipp. II, 6). Non enim note­
-      <lb ed="#PL"/> rat esse rapina, uhi aequalis erat natura; quae non
-      <lb ed="#PL"/> erat usurpata, sed nata. Non rapuit, quia habuit :
-      <lb ed="#PL"/> et multa innumeralibilia, quae ad momentum non oc­
-      <lb ed="#PL"/> currunt. Spiritum vero sanctum verum Deum Actus
-      <lb ed="#PL"/> Apostolorum apertissime edocent : Anania, inquit
-      <lb ed="#PL"/> Petrus, cur tentavit satanas cor tuum mentiri te Spi­
-      <lb ed="#PL"/>
-      ritui sancto? et infra , Non es hominibus
-      mentitus, sed
-        <lb ed="#PL"/> Deo (Act. v, 3, 4). Et in Evangelio secundum Joan­
-      <lb ed="#PL"/> nem : DominIs, inquit, Spiritus est (Joan. IV I 24).
-      <lb ed="#PL"/> Paulus apostolus ad Corinthios scribens : Nescitis ,
-      <lb ed="#PL"/> inquit, quia corpora vestra templum est Spiritus san­
-        <lb ed="#PL"/> cii, qni in vobis est, quem habetis a Deo, et non estis
-        <lb ed="#PL"/> vestri ? Empti enim estis pretio magno : gloriftcate et
-        <lb ed="#PL"/> portate Deum in corpore vestro ( I Cor. VI, 19, 20).
-      <lb ed="#PL"/> Pater, inquam, Deus, Fil us Deus, Spiritus sanctus
-      <lb ed="#PL"/> Deus; non tres dii, sed unus Deus est. Nam si Pater
-      <lb ed="#PL"/> major, Filius minor, Spiritus sanctus plus quam In i-
-      <lb ed="#PL"/> nor, quod <unclear>hiretica</unclear> pravitas asserit, jam non erit
-      <lb ed="#PL"/> unus Deus, sed tres dii; quod nefas est credere. Et
-      <lb ed="#PL"/> Valde rcdarguit illos Scriptura divina : Audi, Israel,
-      <lb ed="#PL"/> inquit, Dominus Deus tuus, Deus unus est
-        (Deut. VI,
-      <lb ed="#PL"/> 4). Ac per hoc sicut non dicimus tres deos, nec tres
-      <lb ed="#PL"/> essentias; ita nec tres sapientias, nec tres spiritus.
-      <lb ed="#PL"/> Nam interrogati de singulis personis. si Pater sit sa­
-      <lb ed="#PL"/> "ientia vei Spiritus sanctus; respondemus, Pater sa
-      <lb ed="#PL"/> pientia, et Filius sapientia, et Spiritus sanctus sa­
-      <lb ed="#PL"/> pientia : nou tres sapientiae , nee tres spiritus , sed
-      <lb ed="#PL"/> una sapientia est et unus spiritus; sicut est una sub­
-      <lb ed="#PL"/> stantia, aut una essentia : quia hoc est illi esse quod
-      <lb ed="#PL"/> sapientem csse vel spiritum esse.
-    </p>
-         </div>
-      </body>
-   </text>
+          faciens Deo
+          <lb ed="#PL"/> (Id. v, 18). Et rursum bcatus apostolus Paulus : Qui
+          <lb ed="#PL"/> cum in forma Dei ess t, non rapinam arbitratus eat
+          <lb ed="#PL"/> esse se aequalem Deo (Philipp. II, 6). Non enim note­
+          <lb ed="#PL"/> rat esse rapina, uhi aequalis erat natura; quae non
+          <lb ed="#PL"/> erat usurpata, sed nata. Non rapuit, quia habuit :
+          <lb ed="#PL"/> et multa innumeralibilia, quae ad momentum non oc­
+          <lb ed="#PL"/> currunt. Spiritum vero sanctum verum Deum Actus
+          <lb ed="#PL"/> Apostolorum apertissime edocent : Anania, inquit
+          <lb ed="#PL"/> Petrus, cur tentavit satanas cor tuum mentiri te Spi­
+          <lb ed="#PL"/>
+          ritui sancto? et infra , Non es hominibus
+          mentitus, sed
+          <lb ed="#PL"/> Deo (Act. v, 3, 4). Et in Evangelio secundum Joan­
+          <lb ed="#PL"/> nem : DominIs, inquit, Spiritus est (Joan. IV I 24).
+          <lb ed="#PL"/> Paulus apostolus ad Corinthios scribens : Nescitis ,
+          <lb ed="#PL"/> inquit, quia corpora vestra templum est Spiritus san­
+          <lb ed="#PL"/> cii, qni in vobis est, quem habetis a Deo, et non estis
+          <lb ed="#PL"/> vestri ? Empti enim estis pretio magno : gloriftcate et
+          <lb ed="#PL"/> portate Deum in corpore vestro ( I Cor. VI, 19, 20).
+          <lb ed="#PL"/> Pater, inquam, Deus, Fil us Deus, Spiritus sanctus
+          <lb ed="#PL"/> Deus; non tres dii, sed unus Deus est. Nam si Pater
+          <lb ed="#PL"/> major, Filius minor, Spiritus sanctus plus quam In i-
+          <lb ed="#PL"/> nor, quod <unclear>hiretica</unclear> pravitas asserit, jam non erit
+          <lb ed="#PL"/> unus Deus, sed tres dii; quod nefas est credere. Et
+          <lb ed="#PL"/> Valde rcdarguit illos Scriptura divina : Audi, Israel,
+          <lb ed="#PL"/> inquit, Dominus Deus tuus, Deus unus est
+          (Deut. VI,
+          <lb ed="#PL"/> 4). Ac per hoc sicut non dicimus tres deos, nec tres
+          <lb ed="#PL"/> essentias; ita nec tres sapientias, nec tres spiritus.
+          <lb ed="#PL"/> Nam interrogati de singulis personis. si Pater sit sa­
+          <lb ed="#PL"/> "ientia vei Spiritus sanctus; respondemus, Pater sa
+          <lb ed="#PL"/> pientia, et Filius sapientia, et Spiritus sanctus sa­
+          <lb ed="#PL"/> pientia : nou tres sapientiae , nee tres spiritus , sed
+          <lb ed="#PL"/> una sapientia est et unus spiritus; sicut est una sub­
+          <lb ed="#PL"/> stantia, aut una essentia : quia hoc est illi esse quod
+          <lb ed="#PL"/> sapientem csse vel spiritum esse.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
