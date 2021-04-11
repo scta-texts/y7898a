@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e542">
+            <head xml:id="y7898a-d1e542-Hd1e107">Quaestio 7</head>
+            <p xml:id="y7898a-d1e542-d1e110">QUAEST. VII. Voluntate genuit PaterFilium, an ne­
+      <lb ed="#PL"/> cessitate?</p>
+            <p xml:id="y7898a-d1e542-d1e115">RESP. Nec voluntate, nec necessitate : quia neces­
+      <lb ed="#PL"/> silas in Deo non est : praeire autem voluntas sapien­
+      <lb ed="#PL"/> tiam non potest, quod est Filius : igitur prins est ra­
+      <lb ed="#PL"/> tionabiliter sapere, quam rationabiliter velle Nam
+      <lb ed="#PL"/> quidam nostrum, cum cum interrogasset h:rreticus,
+      <lb ed="#PL"/> atrum volens. an nolens genuerit Paler Filium; lau­
+      <lb ed="#PL"/> dabiliier respondisse ferlur: Dic, inquit, et tu, haere­
+      <lb ed="#PL"/> lice, Deus Pater necessitate est Dcus, an voluntate' 
+      <lb ed="#PL"/>
+               <pb ed="#PL" n="737"/>
+      Quod si dixisset, Necessitate ; sequebatur illum gran­
+      <lb ed="#PL"/> dis absurditas. Si autem, Voluntate ; respondebatur
+      <lb ed="#PL"/> illi, Ergo voluntate est Deus, nun natura : et ita in
+      <lb ed="#PL"/> laqueum quem volcbat ponère, ipse incidit; et ,-ideas
+      <lb ed="#PL"/> fe convictum, obmutuit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

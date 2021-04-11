@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1082">
+            <head xml:id="y7898a-d1e1082-Hd1e107">Quaestio 20</head>
+            <p xml:id="y7898a-d1e1082-d1e110">QUAEST. XX. Quid est quod dicit apostolus Paulus,
+      <lb ed="#PL"/>
+      Curo et sanguis regnum Dei non possidebunt ?
+    </p>
+            <p xml:id="y7898a-d1e1082-d1e115">RESP. Ex hoc testiinnnio multi minus intelligentes,
+      <lb ed="#PL"/> ac per hoc haeretice asserunt homninem non posse iii
+      <lb ed="#PL"/> eadem , qua defunctus est, carne resurgere ; sed tol­
+      <lb ed="#PL"/> lentes veram carnem, nescio quale corpus aerum
+      <lb ed="#PL"/> quod nunquam habuit, homini post resurrectionem
+      <lb ed="#PL"/> attribuunt. Quod valde ab urdum considerantibus
+      <lb ed="#PL"/> ipsa... sententiam, approbatur. Caro et sanguis, inquit,
+      <lb ed="#PL"/>
+      regnum Dei non possidebunt. Et idem apostolus Pau­
+      <lb ed="#PL"/> tus exponens quodam modo, subsecutus, adjunxit:
+      <lb ed="#PL"/>
+      Neque corruptio incorruptionem possidebit. Quibus scri­
+      <lb ed="#PL"/> bebat Apostulus? Nempe his qui dicebant : Manduce­
+        <lb ed="#PL"/> mus et bibumus; cras <foreign xml:lang="grc">ε</foreign>nim moriemur (Id. xv, 50,
+      32).
+      <lb ed="#PL"/> Hos redarguit beatus Paulus apostolus, dicens,car­
+      <lb ed="#PL"/> nem et sanguinem, hoc est opera carnis ei sanguinis,
+      <lb ed="#PL"/> non posse adiipsci regnum Dei. Nam si propria hic
+      <lb ed="#PL"/> substantia carnis accipienda est, quid dicent de his
+      <lb ed="#PL"/> quibus seribit idem apostolus, Vos autem in carne
+        non
+        <lb ed="#PL"/> estis, sed in spiritu? Numquidnam Romani carnem non
+      <lb ed="#PL"/> babebant, quibus Apostolus scribebat? Sed, in carne,
+      <lb ed="#PL"/> inquit, non estis; id est, non estis carnales, non facilis
+      <lb ed="#PL"/> opera carnis, quae inimica suut Deo, quae legi Dei
+      <lb ed="#PL"/> non subjiciuntur. Qui autem in carne sunt, inquit,
+      <lb ed="#PL"/> Deo placere non possunt (Rom. VIII, 9, 8).
+      Ecce qualis
+      <lb ed="#PL"/> caro reguum Dei non possidebit. Nam quod homo in
+      <lb ed="#PL"/> cadem qua motitur carne resurgat, Dominus noster
+      <lb ed="#PL"/> Jesus Christus post resurrei tionem suam dubitantibus
+      <lb ed="#PL"/> discipulis, et putantibus se spiritum videre, respon­
+      <lb ed="#PL"/> dit : Palpate et uidete, quia spiritus carnem et
+        ossa non
+      <lb ed="#PL"/>
+      hubel, sicut me videtis hubere (Luc. xxiv, 59). Ac per
+      <lb ed="#PL"/> hoc credimus hominem non tantum cum carne et os­
+      <lb ed="#PL"/> sibus, sed etiam cum sanguine, vel quidquid ad natu­
+      <lb ed="#PL"/> rain ejus pertinet resurgere; sed sine ulla corruptione 
+      <lb ed="#PL"/> erit ilii semper aeterna vita et aetierna felicitas, eon­
+      <lb ed="#PL"/> templando Trinitatem De...... Igitur sicut justi cuiun
+      <lb ed="#PL"/> sua carne ad aeternam felicitatem, ita impii ad aeter­
+      <lb ed="#PL"/> nam rcsurgont miseriam.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

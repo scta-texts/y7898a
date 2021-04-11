@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e877">
+            <head xml:id="y7898a-d1e877-Hd1e107">Quaestio 15</head>
+            <p xml:id="y7898a-d1e877-d1e110">QUAEST. XV. Marcus evangelista narrat Dominam
+      <lb ed="#PL"/> hora tertia crucifixum (Marc. xv, 25), Joannes au­
+      <lb ed="#PL"/> tem sexta (Joan. XIX, 14-18); cui potius credendum
+      <lb ed="#PL"/> est ex his duobus?</p>
+            <p xml:id="y7898a-d1e877-d1e119">RESP. Et ille verum dixit, et ille similiter. Nam
+      <lb ed="#PL"/> hora tertia clamaverunt Pilato Judaei : Crucifige, cru­
+      <lb ed="#PL"/> cifige eum (Luc. XXIII, 21). Milites autem ima sexta
+      <lb ed="#PL"/> crucifixerunt eum. Igitur quod illi lingua, hoc isti
+      <lb ed="#PL"/> manibus effecerunt. Ne autem viderentur Juda i non
+      <lb ed="#PL"/> crucifixisse Dominum, ideo evangelista posuit hora
+      <lb ed="#PL"/> tertia crucifixum Dominum , qnia non tantum illi cru­
+      <lb ed="#PL"/> cifixerunt qui ministerium impleverunt, sed et illi
+      <lb ed="#PL"/> qui clamaverunt. In eis cnim completum est quod ait
+      <lb ed="#PL"/> Psalmographus : Filii hominum , dentes eorum arma
+        <lb ed="#PL"/> et sagittae, et lingua eorum machaera acuta (Psal. LVI ,
+      <lb ed="#PL"/> 5). Vides qualem gladium habuerunt, unde hora ter­
+      <lb ed="#PL"/> tia Dominum occiderunt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

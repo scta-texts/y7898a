@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 61</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 61</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e3221">
+            <head xml:id="y7898a-d1e3221-Hd1e107">Quaestio 61</head>
+            <p xml:id="y7898a-d1e3221-d1e110">QUAEST. LXI. Quid significat, qnod Cham pater Cha­
+      <lb ed="#PL"/> naan, videns verenda patris sui, exivit fora,, et nuci.
+      <lb ed="#PL"/> Hiavit fratribus suis (lbid.9 22).</p>
+            <p xml:id="y7898a-d1e3221-d1e117">RESP. In duobus liliis maximo et minimo, duo po- 
+      <lb ed="#PL"/>
+               <pb ed="#PL" n="751"/>
+      puli figurati sunt, unam vestem a tergo portantes,
+      <lb ed="#PL"/> sacramentum scilicet jam praeteritae atque transactae
+      <lb ed="#PL"/> dominicae passionis : nuditatem patris tegentes, neque
+      <lb ed="#PL"/> intuentes, qui in Christi necem non consentiunt, et
+      <lb ed="#PL"/> eum honorant velamento, tanquam scientes unde sint
+      <lb ed="#PL"/> nati. Medius lilius, id est populus Judaeorum (ideo
+      <lb ed="#PL"/> medius, quia nee primatum Apostolorum tenuit, nee
+      <lb ed="#PL"/> utillimus in gentibus credidit), vidit nuditatem patris,
+      <lb ed="#PL"/> quia consensit in necem Christi. EL nuntiavit fratribus
+      <lb ed="#PL"/> suis. Per eum quippe manifestatum est et quodam
+      <lb ed="#PL"/> modo pubiicatum, quod crat prophetiae secretum.
+      <lb ed="#PL"/> Ideoque lit fratrum suorum servus. Quid est enim
+      <lb ed="#PL"/> aliud hodic gens ipsa, nisi scriniaria Christianorum,
+      <lb ed="#PL"/> portans Legem. ct Prophetas ad testiminium asser.
+      <lb ed="#PL"/> tionis Ecclesiae, ut nus honoremus per sacramentum,
+      <lb ed="#PL"/> quod nuntiant illi per litteram?</p>
+         </div>
+      </body>
+   </text>
+</TEI>

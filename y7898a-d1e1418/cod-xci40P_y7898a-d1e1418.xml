@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 26</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 26</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1418">
+            <head xml:id="y7898a-d1e1418-Hd1e107">Quaestio 26</head>
+            <p xml:id="y7898a-d1e1418-d1e110">QUAEST. XXVI. Primum diem spiritualem astruis
+      <lb ed="#PL"/> esse creaturam, et quomodo habuit vespere et mane
+      <lb ed="#PL"/>
+      (Ibid., 5) ?</p>
+            <p xml:id="y7898a-d1e1418-d1e117">RESP. Omnis creatura antequam tempore suo fie­
+      <lb ed="#PL"/> ret, in ipso Dei Verbo prius erat ab Angelis cogno­
+      <lb ed="#PL"/> scenda, et sic suo tempore faCienda. Quapropter ipsa
+      <lb ed="#PL"/> creaturae cognitio in semetipsa vespera, in Deo erat
+      <lb ed="#PL"/> mane : quia plus videtur ipsa creatura in Deo, quam
+      <lb ed="#PL"/> in se ipsa videatur. Creatura plus scilicet videtur in
+      <lb ed="#PL"/> arte qua facta est, quam ipsa in se ipsa quae facia est.
+      <lb ed="#PL"/> Propterea enim ait evangelista Joannes, Quod faclum
+        <lb ed="#PL"/> est, in ipso vita erat (Joan. 1,3, 4). Oinnia ergo quae .
+      <lb ed="#PL"/> facta sumit, et vitam non habent, in ipso Verbo Dei
+      <lb ed="#PL"/> vita sunt, in se ipsis vita non sunt. Coelum, terra,
+      <lb ed="#PL"/> lapis, vitam non habent, et tamen in Den via sunt.
+      <lb ed="#PL"/> Vivunt igitur in Deo sine initio, atque incomtnutabili­
+      <lb ed="#PL"/> ter omnes rationes creaturarum. Ac per hoc plus vi.
+      <lb ed="#PL"/> dentur ab Angelis sanctis in Verbo Dei ubi sunt vita,
+      <lb ed="#PL"/> quam in se ipsis; quia scientia Angelorum in compa­
+      <lb ed="#PL"/> ratione Dei quodam modo vesperascit. Sic ergo in
+      <lb ed="#PL"/> cognitione' spirituum, dies primus; incognitione fir­
+      <lb ed="#PL"/> mamenti, secundus; in cognitione discretionis terras
+      <lb ed="#PL"/> ac maris, lerlius; in cognitione solis ac lunae et stella­
+      <lb ed="#PL"/> rum, quartus; in cognitione reptilium et volatilium,
+      <lb ed="#PL"/> quintus; in cognitione jumentorum et ferarum vel
+      <lb ed="#PL"/> hominis, sextus. Neque enim diei unius, quem intel­
+      <lb ed="#PL"/> ligimus naturam spiritualium creaturarum , id est,
+      <lb ed="#PL"/> angelicarum, sexies facta cognitio, sex dies fecit,
+      <lb ed="#PL"/> propter senarii numeri perfectionem. Sed de numeri
+      <lb ed="#PL"/> senarii perfectione aliquid tibi ex Scripturis sanctis
+      <lb ed="#PL"/> colligam. Libens adesto, et te totam ad audiendum
+      <lb ed="#PL"/> prepara. Unum in numeris dividi non potest: ab ipso
+      <lb ed="#PL"/> enim surgit omnis numerus. Ergo duo dividi possunt:
+      <lb ed="#PL"/> sed pars corum unum est. Igitur divisio duorum in bis
+      <lb ed="#PL"/> unumest: divisio mum in ter unum est. Quid autem
+      <lb ed="#PL"/> aliud hie numerus ostendit, nisi Trinitatem qu;e Deus
+      <lb ed="#PL"/> cst? quae quamvis tres sint personae, unum creduntur
+      <lb ed="#PL"/> in unitate naturae. Quatemarius duas partes habet:
+      <lb ed="#PL"/> nam quarta ejus, unum; mediaejus, duo. Unum vi­
+      <lb ed="#PL"/> delicet et duo tria sunt. Ecce partes suas; nec ultra
+      <lb ed="#PL"/> excrescit, nec completur; ct ideo imperfectus est nu­
+      <lb ed="#PL"/> merus, Quinarius non habet nis! unum, quod est
+      <lb ed="#PL"/> quinta ejus. Senarius ergo numerus perfectus est,
+      <lb ed="#PL"/> quia partibus suis completur : habet enim unum,
+      <lb ed="#PL"/> quod est sexta pars ejus; duo, quae sunt tertia; tria,
+      <lb ed="#PL"/> quae sunt media. Unum ergo, duo, et tria, sex faciunt.
+      <lb ed="#PL"/> lucoque propter hujus numeri perfectionem, sex die­
+      <lb ed="#PL"/> hus operatus est Deus omnem creaturam. Tres ergo
+      <lb ed="#PL"/> hae partes senarii numeri demonstrant nobis Trinila­
+      <lb ed="#PL"/> tam Deum, in trinitate numeri, mensurae, et ponderis, 
+      <lb ed="#PL"/> fecisse omnem creaturam. Plurimum valEre senarit
+      <lb ed="#PL"/> numeri perfectionem, in Scripturis san ctis frequenter
+      <lb ed="#PL"/> reperimus, praesertim in morte Domini simpla, et in
+      <lb ed="#PL"/> resurrectione ejus simpla, et in morte nostra dupla ,
+      <lb ed="#PL"/> et in resurrectione nostra dupla1. Mors itaque Domini
+      <lb ed="#PL"/> nostri Jesu Christi non fuit in anima, sed in carne
+      <lb ed="#PL"/> sola. Mors vero nostra non in carne solum, sed et in
+      <lb ed="#PL"/> anima : in anima propter peccatum, in earne propter
+      <lb ed="#PL"/> poenam peccati. Ille vero quia peccatum non habuit,
+      <lb ed="#PL"/> In aniina non est mortuus, nisi tantum in carne; et
+      <lb ed="#PL"/> hoc propter similitudinem carnis peccati, quam de
+      <lb ed="#PL"/> Adam traxerat. Igitur simpla ejus mors profuit duplae
+      <lb ed="#PL"/> nostrae, et simpla ejus resurrectio duplae nostre re­
+      <lb ed="#PL"/> surrectioni profuit. Est etenim mors carnis ejus et
+      <lb ed="#PL"/> resurrectio ejus, mors carnis nostrae et resurrectio
+      <lb ed="#PL"/> ejus, et mors anim;e nostra; et resurrectio ejus. Mors
+      <lb ed="#PL"/> autem carnis ejus cl resurrectio cjus, duas mortes
+      <lb ed="#PL"/> nostras et duas resurrectiones nostras significat. Unde
+      <lb ed="#PL"/> si addas ad unam mortem Domini et unam resurre­
+      <lb ed="#PL"/> ctionem ejus, quae duo faciunt, quatuor, hoc est, duas
+      <lb ed="#PL"/> mortes et duas resurrecliones nostras, sex fiunt. Ideo­
+      <lb ed="#PL"/> que simplum Domini bis, et duplum nostrum his, tria
+      <lb ed="#PL"/> bis sum; et tria bis secundum quod supra diximus,
+      <lb ed="#PL"/> partes sunt unde senarius numerus est. Nam et tri­
+      <lb ed="#PL"/> ginta sex horae quibus Dominus fuit in inferno, huic
+      <lb ed="#PL"/> simplo et duplo congrunnt. Duodecim ergo horae fue­
+      <lb ed="#PL"/> runt diurnae. et viginti quatuor nocturnae. Item \ iginti
+      <lb ed="#PL"/> quatuor ad duplam mortem nostram concinunt, et
+      <lb ed="#PL"/> illae duodecim horae ad mortem Domini simplam. Re­
+      <lb ed="#PL"/> vera enim et nativitas ejus senarium numerum habet.
+      <lb ed="#PL"/> Q ladraginta enim et sex annis aedificatum esse tem­
+      <lb ed="#PL"/> plum asserunt Judaei in Evangelio , quod intelligitur
+      <lb ed="#PL"/> de corpore Domini (Joan. II. 20,21). Q adraginta et
+      <lb ed="#PL"/> sex anni pro diebus positi sunt. Quadraginti et sex
+      <lb ed="#PL"/> diebus dicunt infantem formari in utero, et subinde
+      <lb ed="#PL"/> in diem parturitionis augmentari. Quadragies scxies
+      <lb ed="#PL"/> quippe seni, fiunt ducenti septuaginta sex, qui faciunt
+      <lb ed="#PL"/> menses novem et dies sex I. Computa ergo ab octavo
+      <lb ed="#PL"/> calendas aprilis quando passus est Dominus ( nam et
+      <lb ed="#PL"/> tunc etiam creditur fuisse conceptus), usque in diem
+      <lb ed="#PL"/> octavum calendas januarii, et reperies dies ducentos
+      <lb ed="#PL"/> septuaginta sex, qui constant pe r senarium numerum.
+      <lb ed="#PL"/> Quid de illa muliere in Evangelio, quan decem et
+      <lb ed="#PL"/> octo annis curvaverat satanas, quam sanavit Domi­
+      <lb ed="#PL"/> nus, dicemus (Luc. XIII, 11-13) ? quia et ipsi anni se­
+      <lb ed="#PL"/> narium numerum halent. Ter enim seni octodecim
+      <lb ed="#PL"/> suut. Illa itaque mulier inteiligitur figurare genus
+      <lb ed="#PL"/> humanum, quod sexta aetate saeculi a captivitate dia­
+      <lb ed="#PL"/> boli Redemptor noster Dominiis Jesus liberavit. Pri­
+      <lb ed="#PL"/> ma aetas est ab Adam usque ad Noe. Sccunda aetas
+      <lb ed="#PL"/> est a Noe usque ad Abraham. Tertia, ab Abraham
+      <lb ed="#PL"/> usque ad David. Quarta, a David usque ad transmi­
+      <lb ed="#PL"/> grationem Bahylunis. Quinta, a transmigratione Ba­
+      <lb ed="#PL"/> bylonis usque ad adventum Domini nostri Jesu Chri­
+      <lb ed="#PL"/> sti. Sexta quae nunc agitur, donec Excelsus veniat ad
+      <lb ed="#PL"/> judicium. Sexta igitur aetate saeculi reformatur genus
+      <lb ed="#PL"/> humanum ad imaginem Dei. Profecto enim anni de­
+      <lb ed="#PL"/> cem et octo, non solum sex aetates, sed eliam tria
+      <lb ed="#PL"/> tempora evidenter demonstrant : unum scilicet ante
+      <lb ed="#PL"/> Legem, alterum sub Lege. tertium sub gratia Igitur
+      <lb ed="#PL"/> et ipse annus senario numero continetur. Habet euim
+      <lb ed="#PL"/> dies trecentos sexaginta quinque. Sexies autem sexa­
+      <lb ed="#PL"/> geni, sunt, trecenti sexaginta. Remanent profecto dies
+      <lb ed="#PL"/> quinque et quadrans: Quinque autem dies sexies,
+      <lb ed="#PL"/> sunt mensis. Tamen etiamsi illum quadrantem pro
+      <lb ed="#PL"/> die ponas, a parte totum, sex faciunt. Eccc quantum
+      <lb ed="#PL"/> nie Dominus adjuvit, de seuarii numeri perfectione,
+      <lb ed="#PL"/> etsi non quantum volui, tamen quantum potui, red­
+      <lb ed="#PL"/> didi rationem.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

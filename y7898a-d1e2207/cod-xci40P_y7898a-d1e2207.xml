@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 38</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 38</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2207">
+            <head xml:id="y7898a-d1e2207-Hd1e107">Quaestio 38</head>
+            <p xml:id="y7898a-d1e2207-d1e110">QUAEST. XXXVIII. Cum Deus dixerit, Germinet
+      <lb ed="#PL"/> terra herbam virentem, et afferentem semen et ligna
+      <lb ed="#PL"/> fructifera (ld. I, 11); ligna infructuosa, vel spinas vel
+      <lb ed="#PL"/> tribulos quando fecit?</p>
+            <p xml:id="y7898a-d1e2207-d1e119">RESP. Siinul omnia Deus fecit, dicente Scriptura,
+      <lb ed="#PL"/>
+      Qui vivit in aeternum, creavit omnia simul ( Eccli.
+      <lb ed="#PL"/> XVIII, 1). Nuilatenus igitur dicenda sunt infructuosa
+      <lb ed="#PL"/> ligua, quae aliquo modo hominibus afferunt adju­
+      <lb ed="#PL"/> uienta : quia et revera, si non invenimus in eis ali­
+      <lb ed="#PL"/> quid ad edendum, inveniamus certe ad medicamen­
+      <lb ed="#PL"/> tum, invenimus ad adjutorium. Nani quantae utilitates
+      <lb ed="#PL"/> inveniantur in eis, tu ipse considera. Proinde quia a
+      <lb ed="#PL"/> fruendo dicitur fructus, et ab omni ligno possumus
+      <lb ed="#PL"/> habere aliquod adjutorium, jure nullum lignum dici­
+      <lb ed="#PL"/> mus infructuosum. Spinae autem et tribuli quamvis
+      <lb ed="#PL"/> post peccatum homini nascantur ad laborem dicente
+      <lb ed="#PL"/> Scriptura, Terra spinas et tribulos pariet tibi ( Gen.
+      <lb ed="#PL"/> III, 18); tamen non est dicendum tunc ea oriri ex
+      <lb ed="#PL"/> terra ; quia jam erant utique ad pastus pecorum vel
+      <lb ed="#PL"/> volatilium facta, non ad augendam hominis paenam
+      <lb ed="#PL"/> producta.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

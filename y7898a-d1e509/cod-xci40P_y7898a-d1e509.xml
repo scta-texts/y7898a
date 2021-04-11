@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e509">
+            <head xml:id="y7898a-d1e509-Hd1e107">Quaestio 6</head>
+            <p xml:id="y7898a-d1e509-d1e110">QUAEST. VI. Si una substantia est Patris et Filii ct
+      <lb ed="#PL"/> Spiritus sancti, quomodo Filius siue Patre ei Spiritu
+      <lb ed="#PL"/> sancto suscepit carnem?</p>
+            <p xml:id="y7898a-d1e509-d1e117">RESP. Neque persona Patris, neque Spiritus sancti,
+      <lb ed="#PL"/> sed sola Filii persona suscepit carnem. Et ut hoc in­
+      <lb ed="#PL"/> telligas, comparationibus utar,ut ex creatura intelligas
+      <lb ed="#PL"/> , Creatorem. Certe in anima est ratio, et eum unum
+      <lb ed="#PL"/> sint, aliud anima agit, aliud ratio. Anima vivimus, ra­
+      <lb ed="#PL"/> tione sapimus. Ita Pater et Filius et Spiritus sancius
+      <lb ed="#PL"/> cum sint una substantia I, tota Trinitas operata est
+      <lb ed="#PL"/> hominem, quem non tota Trinitas assumpsit, sed sola
+      <lb ed="#PL"/> Filii persona.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

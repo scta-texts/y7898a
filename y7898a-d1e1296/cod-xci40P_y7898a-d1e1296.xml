@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 23</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 23</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1296">
+            <head xml:id="y7898a-d1e1296-Hd1e107">Quaestio 23</head>
+            <p xml:id="y7898a-d1e1296-d1e110">QUAEST. XXIII. Dixit Deus, Fiat lux (Ibid., 5)! In
+      <lb ed="#PL"/> die dixit, an aute omnem diem? Si in die dixit, tem­
+      <lb ed="#PL"/> poraliler dixit: si temporaliter dixit, per aiquam
+      <lb ed="#PL"/> creaturam dixit- Igitur non est prima creatura lux.</p>
+            <p xml:id="y7898a-d1e1296-d1e119">RESP. Nec in die dixit, nec temporaliter dixit; quia
+      <lb ed="#PL"/> aute omnen profecto creaturam Verbum suum ge­
+      <lb ed="#PL"/> unit, et per Verbum omnem creaturam creavit. Dictio
+      <lb ed="#PL"/> itaque Dei, Verbum Dei est. Sed divina Scriptura
+      <lb ed="#PL"/> parvulis congruens, et quodam modo eos lactans, ut
+      <lb ed="#PL"/> proficiant et cibum spiritualem capiant, voluit semper
+      <lb ed="#PL"/> per omnem creatune formationem dictionem Dei nun­
+      <lb ed="#PL"/> cupare. Ut, verbi gratia, si requiras , Quomodo facta
+      <lb ed="#PL"/> est lux? audias, III Verbo Dei crat, ut fieret. Quo­
+      <lb ed="#PL"/> modo factum caelum In Verbo Dei erat, ut lieret. Et
+      <lb ed="#PL"/> caetera per ordinem si requiras quomodo facta si..,.
+      <lb ed="#PL"/> in Verbo Dei erant, ut fierent. Hoc est cnim : Dixit
+        <lb ed="#PL"/> Deus, Fiat lux. Neque enim corporalibus modis lo­
+      <lb ed="#PL"/> quitur divina natura ; nec quoties dicitur, Dixit, toties
+      <lb ed="#PL"/> verba formavit. Unum enim Verbum genuit coaeter­
+      <lb ed="#PL"/> num et consubstantiale sibi, in quo omnia ineffabiliter
+      <lb ed="#PL"/> et intemporaliter dixit. 
+      <pb ed="#PL" n="741"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

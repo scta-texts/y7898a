@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 31</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 31</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1883">
+            <head xml:id="y7898a-d1e1883-Hd1e107">Quaestio 31</head>
+            <p xml:id="y7898a-d1e1883-d1e110">QUAEST. XXXI. Tulit ergo Dominus Deus hominem,
+      <lb ed="#PL"/> att Scriptura , et posuit eum in paradiso
+        voluptatis, ut
+        <lb ed="#PL"/> operaretur et custodiret illum (Gen. II, 15). Quid, rogo,
+      <lb ed="#PL"/> operaretur et custodiret; paradisum, an aliud?</p>
+            <p xml:id="y7898a-d1e1883-d1e119">RESP. Ista sententia duplicem intelligentiam parit.
+      <lb ed="#PL"/> Sive enim operaretur homo paradisum, id est in pa­
+      <lb ed="#PL"/> radiso aliquid operaretur, non necessitate victus, sed
+      <lb ed="#PL"/> ad delectationem I operabatur : adhuc enim non pec­
+      <lb ed="#PL"/> caverat, nec ei terra spinas et tribulos germinaverat,
+      <lb ed="#PL"/> ut in sudore faciei suae ederet panem suum. Hoc
+      <lb ed="#PL"/> nempe meruit post peccatum. Ante peccatum igitur
+      <lb ed="#PL"/> non indigentia, non necessitate, sed sola, ut diximus,
+      <lb ed="#PL"/> voluptate I operabatur paradisum per agriculturam, ct
+      <lb ed="#PL"/> custodiebat per disciplinam. Non contra bestias neque
+      <lb ed="#PL"/> contra animalia aliqua paradisum custodiebat, sed
+      <lb ed="#PL"/> sibi, scilicet ne amitteret peccando, quem custodire
+      <lb ed="#PL"/> poterat obediendo. Sive ipsum hominem posuit Deus
+      <lb ed="#PL"/> in paradiso ut operaretur et custodiret : operaremur
+      <lb ed="#PL"/> scilicet ut bonus esset, et custodiret ut tutus esset.
+      <lb ed="#PL"/> Quodlibet horuin dicatur, sivc homo paradisum ope­
+      <lb ed="#PL"/> raretur per agriculturam, et custodiret per discipli­
+      <lb ed="#PL"/> nam ; sive ipsum hominem Deus operaretur ut ho­
+      <lb ed="#PL"/> nus esset, et custodiret ut tutus esset : quodvis
+      <lb ed="#PL"/> horum intelligas, rationi uterque inte llectus con­
+      <lb ed="#PL"/> gruit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

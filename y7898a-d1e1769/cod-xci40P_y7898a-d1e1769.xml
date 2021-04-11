@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 29</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 29</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1769">
+            <head xml:id="y7898a-d1e1769-Hd1e107">Quaestio 29</head>
+            <p xml:id="y7898a-d1e1769-d1e110">QUAEST. XXIX. Cum Deus omnia bona creaverit,
+      <lb ed="#PL"/> dicente Scriptura, Et ecce omnia quae fecit Deus, bona
+        <lb ed="#PL"/> valde (Ibid., 31); cur rursus Dominus in Evangelio
+      <lb ed="#PL"/> dicit, Nemo bonus, nisi solus Deus (Marc. x,
+      18) ?</p>
+            <p xml:id="y7898a-d1e1769-d1e119">RESP. Quod bomo sit bonus, idem ipse Dominus
+      <lb ed="#PL"/> in Evangelio dicit: Bonus homo de bono thesauro cor­
+        <lb ed="#PL"/> dis sui profert bona (Mutth. XII, 35). Sed ut hoc di­
+      <lb ed="#PL"/> ceret, Nemo bonus, nisi solus Deus; illi
+      scilicet respon­
+      <lb ed="#PL"/> debat qui vitam aeternam ab eo quaerebat, illi qui
+      <lb ed="#PL"/> tantum hominem arbitrabatur, dicens, Magister bone.
+      <lb ed="#PL"/> Ideoque sic respondit, dicens, Quid me dicis bonum ?
+        <lb ed="#PL"/> Nemo bonuS, nisi solus Deus: id est, Forma ista as­
+      <lb ed="#PL"/> sumpta, quam cernis, quam videbunt boni et mali,
+      <lb ed="#PL"/> pii et impii, non crit eis in bonum qui mala agunt.
+      <lb ed="#PL"/> Ergo non me dicas secundum hanc formam bonum,
+      <lb ed="#PL"/> quam videbunt illi qui pupugerunt. Est alia Corna,
+      <lb ed="#PL"/> quam non videbunt iMpii, quam non videbunt nisi
+      <lb ed="#PL"/> justi; secandum hanc formam bonus sum eis qui
+      <lb ed="#PL"/> digni rucrint me videre.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

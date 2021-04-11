@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 21</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 21</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1175">
+            <head xml:id="y7898a-d1e1175-Hd1e107">Quaestio 21</head>
+            <p xml:id="y7898a-d1e1175-d1e110">QUAEST. XXI. Genesis principium est: In principio
+      <lb ed="#PL"/> fecit Deus cœlum et terram (Gen. I, 1). Angeli postmo­
+      <lb ed="#PL"/> dum facti sunt, an non? Si euim ante Angeli facti
+      <lb ed="#PL"/> sunt, nnn primo omnium fecit Deus cœlum et terram.</p>
+            <p xml:id="y7898a-d1e1175-d1e119">RESP. Quando facta sunt simul sidera, ait
+      Scriptura,
+      <lb ed="#PL"/>
+      laudaverunt Me omnes Angeli mei voce magna (Job
+      <lb ed="#PL"/> XXXVIII, 7, sec. LXX). Quarto enim die ficta sunt si­
+      <lb ed="#PL"/> dera, et jani Angeli erant. Neque enim die tertio, ne­
+      <lb ed="#PL"/> que secundo facti sunt. In his enim apparet quae facta
+      <lb ed="#PL"/> sunt. Tertio enin die arida, scilicet terra ah aquis
+      <lb ed="#PL"/> discreta est. Secundo enim factum est firmamentum,
+      <lb ed="#PL"/> ubi sol et Inna discurrunt et sidera. Porro primus
+      <lb ed="#PL"/> dies ipse est 1 angelica natura, quae primo cœli nomine
+      <lb ed="#PL"/> nuncupata est. Unde evidenter ostenditur primo die
+      <lb ed="#PL"/> spiritualem factain, id est, angelicam naturam, et sic
+      <lb ed="#PL"/> hoc cadum quod oculis cernimus. Nam quod ait , In
+      <lb ed="#PL"/>
+      principio fecit Deus coetum el terram; non est prino
+      <lb ed="#PL"/> omnium, sicut ais : sed, In principio, id est, in Filio,
+      <lb ed="#PL"/> imo per Filium fecit Deus omnem spiritualem corpo­
+      <lb ed="#PL"/> ralemque creaturam, quae et coeli et terrae nomine
+      <lb ed="#PL"/> appellata cst. Nani quod ipse sit principium, de se
+      <lb ed="#PL"/> interrogantibus Judicis quis esset, respondit: Princi­
+      <lb ed="#PL"/>
+      pium, quia Et loquor vobis (Joan. VIII, 25). Primo igi­
+      <lb ed="#PL"/> tur voluit Carlum et terram velut quamdam sp ritua­
+      <lb ed="#PL"/> lem corporalemque materiam dicere, et sic quemad­
+      <lb ed="#PL"/> modum singillatim facia sunt, ordine texere. Quod
+      <lb ed="#PL"/> eniin dixit cœlum, hoc mihi videtnr dixisse aquarum
+      <lb ed="#PL"/> abyssum tenebrosam, atque quodam modo fluitantem
+      <lb ed="#PL"/> vitam , nisi convertatur ad Creatorem, ct fiat lux, et
+      <lb ed="#PL"/> contempletur Trinitatem Deum esse in Deo. Neque
+      <lb ed="#PL"/> ita dicimus, ut ista materies praecedat formam suam,
+      <lb ed="#PL"/> sicut praecedit lignum arcam; sed sicut praecedit vox
+      <lb ed="#PL"/> verbum : non enim tempore, sed origine. Igitur prima
+      <lb ed="#PL"/> creatura lux non est ista quae quarta die facta est;
+      <lb ed="#PL"/> sed spiritualis, id est, angelica natura.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 54</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 54</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2972">
+            <head xml:id="y7898a-d1e2972-Hd1e107">Quaestio 54</head>
+            <p xml:id="y7898a-d1e2972-d1e110">QUAesT. LIV. Quid significat quod post dies septem
+      <lb ed="#PL"/> ex quo ingressus est Noe in arcam, pluit Domiminus
+      <lb ed="#PL"/> super terram quadraginta diebus et quadraginta nocti­
+      <lb ed="#PL"/> bus (Gen. VII, 10-12)?</p>
+            <p xml:id="y7898a-d1e2972-d1e119">RESP. Quod post dies septem Dominus pluit super
+      <lb ed="#PL"/> terram, hoc significat, quod emnes qui baptizantur,
+      <lb ed="#PL"/> in spe futurae quictis, quae septimo die significata est,
+      <lb ed="#PL"/> baptizantur. Et omnis reatus peccatorum, qui in de­
+      <lb ed="#PL"/> rem Legis praeceptis admittitur per universum orbem
+      <lb ed="#PL"/> terrarum, qui quatuor partibus continetur, unde de­
+      <lb ed="#PL"/> cem per quatuor ducta quadraginta fiunt; sive ille
+      <lb ed="#PL"/> reatus qui ad dies pertinet ex rerum prosperiiate, sive
+      <lb ed="#PL"/> qui ad noctes ex rcruin adversitate contractus sit; sa­
+      <lb ed="#PL"/> cramento caelestis Baptismi abluitur.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

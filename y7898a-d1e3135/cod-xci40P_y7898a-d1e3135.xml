@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 59</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 59</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e3135">
+            <head xml:id="y7898a-d1e3135-Hd1e107">Quaestio 59</head>
+            <p xml:id="y7898a-d1e3135-d1e110">QUiEt. LIX. Quid significat quod emissus corvus
+      <lb ed="#PL"/> de arca, non est reversus (Gen. VIII, 7)?</p>
+            <p xml:id="y7898a-d1e3135-d1e115">RESP. Corvus ut non reverteretur, aut aquis inter­
+      <lb ed="#PL"/> ceptus est, aut alicui cadaveri illectus insedit : et si­
+      <lb ed="#PL"/> gnificat illos homines, qui carnalibus dediti rebus, Dei
+      <lb ed="#PL"/> praecepta contemnunt, et nullatenus poenitendo Ec­
+      <lb ed="#PL"/> clesiae satisfaciunt, unde et per mala opera recesse­
+      <lb ed="#PL"/> runt. Vel certe si aquis ille corvus interceptus est,
+      <lb ed="#PL"/> illos significat qni de Ecclesia exeunt, et haereticorum
+      <lb ed="#PL"/> Baptismo polluuntur. Quamvis enim unam Baptisma
+      <lb ed="#PL"/> sit et haereticorum, corum scilicet qui ill nomine Pa­
+      <lb ed="#PL"/> tris ei Filii et Spiritus sancti baptizant, et Ecclesiae
+      <lb ed="#PL"/> catholicae; tamen quia foris Ecclesium baptizamur,
+      <lb ed="#PL"/> non sumunt Baptismum ad salutem, sed ad perniciem :
+      <lb ed="#PL"/>
+      Habentes nimirum speciem pietatis, virtutem autem ejus
+        <lb ed="#PL"/> abnegantes (II Tim. III, 5) : et rursum, Animales, in­
+      <lb ed="#PL"/> quit, Spiritum non habentes (Judae 19). Et
+      idcirco eos
+      <lb ed="#PL"/> Ecclesia non rebaptizat, quia in nomine Trinitatis
+      <lb ed="#PL"/> baptizati sunt. Ipsa est profecto forma Sacramenti :
+      <lb ed="#PL"/> ideo dum reversi rucrint, accipiunt virtutem Spiritus
+      <lb ed="#PL"/> sancti, quem ii qui foris Ecclesiam baptizantur, non­
+      <lb ed="#PL"/> dum habent.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

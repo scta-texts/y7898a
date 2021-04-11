@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 30</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 30</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1817">
+            <head xml:id="y7898a-d1e1817-Hd1e107">Quaestio 30</head>
+            <p xml:id="y7898a-d1e1817-d1e110">QUEST. XXX. Fons, inquit sancta Scriptura, ascen­
+      <lb ed="#PL"/> debat de terra, irrigans universam faciem terrae ( Gen.
+      <lb ed="#PL"/> II, 6). Si universam terram irrigabat, ergo et montes
+      <lb ed="#PL"/> irrigabat; quia et montes utique terra suni. Si vero
+      <lb ed="#PL"/> et montes irrigabat, diluvium erat. Et quomodo terra
+      <lb ed="#PL"/> germinaverat herbam virentem ct facientem semen ?
+      <lb ed="#PL"/> aut quomodo habilalat homo in terra, si universam
+      <lb ed="#PL"/> terram aqua tegebat?</p>
+            <p xml:id="y7898a-d1e1817-d1e128">RESP. Fons ibi ponitur singularis pro plurali nu­
+      <lb ed="#PL"/> niero. Hoc enim si sollicite requiramus, in Scripturis
+      <lb ed="#PL"/> sanctis frequente reperimus. Habes nempe in Psalmo,
+      <lb ed="#PL"/>
+      Misit in eoa muscam caninam, et comedit eos; et ranam,
+        <lb ed="#PL"/> et exterminavit eos ( Psat. LXXVII, 45) : cum utique
+      <lb ed="#PL"/> nec una musca, nec una rana fuerit. Et alibi in Psalmo
+      <lb ed="#PL"/> dixit, Et venit locusta (Psal. CIV, 54) : non ait, locu­
+      <lb ed="#PL"/> stae; sed, locusta. En habes singularem numcrum pro
+      <lb ed="#PL"/> plurali. Secundum id quod ait nobilissimus quidam
+      <lb ed="#PL"/> poetarum, « Uterumque armato milite complent i
+      <lb ed="#PL"/>
+      (Virgil.9 aeneid. lib. 2, vers. 20). Porro autem
+      propter
+      <lb ed="#PL"/> nnitatem naturae dictum est unus fons; ut omnes in.
+      <lb ed="#PL"/> telligamus qui sunt in terra : quia quodam modo orne
+      <lb ed="#PL"/> nes ex unius abyssi natura manant. Nam quod ait,
+      <lb ed="#PL"/>
+      Irrigabat universam faciem terrae non totam terram
+      <lb ed="#PL"/> rigabat, sed partem. A tuto enim partem significavit;
+      <lb ed="#PL"/> quemadmodum dicimus, Christus mortuus cst, Chri­
+      <lb ed="#PL"/> stus resurrexit : cum non mortuus fucrit, neque re­
+      <lb ed="#PL"/> surrexerit nisi secundum carnem.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

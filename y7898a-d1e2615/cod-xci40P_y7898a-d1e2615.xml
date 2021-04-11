@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 45</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 45</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2615">
+            <head xml:id="y7898a-d1e2615-Hd1e107">Quaestio 45</head>
+            <p xml:id="y7898a-d1e2615-d1e110">QUAEST. XLV. Numquid quia opus erat Adae ut ei
+      <lb ed="#PL"/> conjux fieret, alitcr non poterat fieri, nisi ut dormienti
+      <lb ed="#PL"/> costa detraheretur, ex qua conjux aedificaretur (Id.
+      <lb ed="#PL"/> n, 20-22)?</p>
+            <p xml:id="y7898a-d1e2615-d1e119">RESP. Poterat Deus etiam :-aliter facere, sed ideo
+      <lb ed="#PL"/> congruentius judicavit ut sic faccret, unde aliquid si­
+      <lb ed="#PL"/> gnificaretur. Sicut cnim dormienti Adae costa delra­ 
+      <lb ed="#PL"/> bitur ut conjux efficiatur, ita et Christo morienti de
+      <lb ed="#PL"/> latere sanguis effunditur, ut Ecclesia construatur.
+      <lb ed="#PL"/> Communicando nempe corpori et sanguini Christi,
+      <lb ed="#PL"/> efficitur Ecclesia Christi conjux.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

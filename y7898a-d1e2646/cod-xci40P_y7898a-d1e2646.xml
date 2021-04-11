@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 46</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 46</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2646">
+            <head xml:id="y7898a-d1e2646-Hd1e107">Quaestio 46</head>
+            <p xml:id="y7898a-d1e2646-d1e110">QUAEST. XLVI. Quomodo intelligendum cst quod
+      <lb ed="#PL"/> dicit Adam, Quamobrem relinquet homo patrem
+        et ma­
+      <lb ed="#PL"/>
+      trem, ei udhaerebit uxori suae; et erunt duo in carne una
+        <lb ed="#PL"/> (Gen. II , 24) ?</p>
+            <p xml:id="y7898a-d1e2646-d1e119">RESP. Beamus apostolus Paulus hoc capitulum sibi
+      <lb ed="#PL"/> ponens cxposuit, dicens : Sacramentum hoc magnum
+        <lb ed="#PL"/> est, ego autem dico in Christo et Ecclesia (Ephes. v,
+      <lb ed="#PL"/> 52). Sed quomodo Christus reliquerit Patrem, cum
+      <lb ed="#PL"/> una substantia sit cum Patre? Aut ubi esse poterit
+      <lb ed="#PL"/> Pater sinc Filio, cum de ipso Filio qui ost sapientia,
+      <lb ed="#PL"/> dicatur quod attingat a fine usque ad finem fortiter,
+      <lb ed="#PL"/> ct disponat omnia suavilcr (Sap. VIII, 1) ? Ergo si
+      <lb ed="#PL"/> ibi est Filius ubi et Pater, non potest esse Pater sine
+      <lb ed="#PL"/> Filio, nee Filius sinc Patre : quia scilicet sicut insepa­
+      <lb ed="#PL"/> rabiles sunt in natura, ito et inseparabilcs in personis.
+      <lb ed="#PL"/> Sic enim ipse Filius de Patre dicit in Evangelio :
+      <lb ed="#PL"/>
+      Qui me misit, mecum est (Joan. vm, 29). Quomodo
+      <lb ed="#PL"/> ergo dereliquit Patrem ut adhaereret uxori su:e, id
+      <lb ed="#PL"/> est, Ecclesiae suae, nisi illo modo quo Apostolus dicit :
+      <lb ed="#PL"/>
+      Qui cum in forma Dei esset, non rapinam arbitratus est
+        <lb ed="#PL"/> esse se œqualem Deo; sed semetipsum exinanivit, formam
+        <lb ed="#PL"/> servi accipiens (Philipp. II, 6, 7)? Ipsa ergo formae
+      <lb ed="#PL"/> servilis acceptio est exinanitio, ct ipsa exinanitio
+      <lb ed="#PL"/> quanquam non sil divinitatis abolitio aut naturae
+      <lb ed="#PL"/> imissio, tamen propter formam servi in qua dignosci­
+      <lb ed="#PL"/> tur apparuisse, jure dicit Apostolus Patrem reliquisse.
+      <lb ed="#PL"/> Reliquit et matrem, scilicet Synagogam, Veteri Testa­
+      <lb ed="#PL"/> mento carnaliter inhaerentem ; et adhaesit uxori suae,
+      <lb ed="#PL"/> id est, Ecclesiae suae sanctae, ut per pacem Novi Testa­
+      <lb ed="#PL"/> menti essent duo in carne una.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

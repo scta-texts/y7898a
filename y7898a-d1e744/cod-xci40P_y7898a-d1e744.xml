@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e744">
+            <head xml:id="y7898a-d1e744-Hd1e107">Quaestio 12</head>
+            <p xml:id="y7898a-d1e744-d1e110">QUAEST. XII. Quid est quod dicit apostolus Paulus
+      <lb ed="#PL"/> ad Romanos scribens: Nam quid oremus, inquit, sicut
+        <lb ed="#PL"/> iportet, nescimus; sed ipse Spiritus postulat pro nobit
+          <lb ed="#PL"/> gemitibus inenarrabilibus. Qui autem scrulatur corda,
+      <lb ed="#PL"/> scit quid desideret Spiritua; quia secundum Deum
+        po­
+      <lb ed="#PL"/> stulat pro sanctis (Rom. VIII, 26, 27)?</p>
+            <p xml:id="y7898a-d1e744-d1e123">RESP. Modus iste locutionis frequenter in Scriptu­
+      <lb ed="#PL"/> ris sanctis invenitur, sicut dicit Dominus ad Abraham,
+      <lb ed="#PL"/>
+      Nunc cognovi quod timeat Deum, (Gen. xxu, 12); hoc
+      <lb ed="#PL"/> est, cognoscere te feci: sicut dicit Apostolus, Nunc
+        <lb ed="#PL"/> cognosi entes Deum, imo nunc cogniti a Deo (Galat. IV,
+      <lb ed="#PL"/> 9). Semper omnia in presentia De.. sunt, antequam
+      <lb ed="#PL"/> fiant, praesentia siim; et futura jam facta sunt: quo.
+      <lb ed="#PL"/> modo nunc dicimur conniti a Deo, nisi faciente Deo
+      <lb ed="#PL"/> ut cognoscamus Deum? Sic et hic scribitur Spiritus
+      <lb ed="#PL"/> sanctus gemere pro nohis, id est, gementes nos fa
+      <lb ed="#PL"/> cere. Infundit enin nobis charitatem in Deum rt
+      <lb ed="#PL"/> proximum. Sicnt dicitur laetus dies, quod laetos facit :
+      <lb ed="#PL"/> aut tristis, qnod tristes facit; aut laeta epistola, quod
+      <lb ed="#PL"/> laetos tacit: ita et hic gemere dicitur Spiritus sanctus,
+      <lb ed="#PL"/> eo quod nos gementes facit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

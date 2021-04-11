@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 41</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 41</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2392">
+            <head xml:id="y7898a-d1e2392-Hd1e107">Quaestio 41</head>
+            <p xml:id="y7898a-d1e2392-d1e110">QUAEST. XLI. Quae causa fecit ut Deus quem astruis
+      <lb ed="#PL"/> movere, non moveatur in tempore; aut spiritus crea.
+      <lb ed="#PL"/> tus qui movetur in tempore, non moveatur et ioco ?</p>
+            <p xml:id="y7898a-d1e2392-d1e117">RESP. Deus qui instituit tempora, et est ante tem­
+      <lb ed="#PL"/> pora, nihil iu eo est praeteritum et futurum, nul­
+      <lb ed="#PL"/> lum consilium novum, nullaque nova cogitatio : quia
+      <lb ed="#PL"/> scilicet si nova, et accidens. Si vero aliquid ac­
+      <lb ed="#PL"/> cidit Deo, jam non immutabilis. Igitur immutabi­
+      <lb ed="#PL"/> lis Deus est : nibil illi accidit, nulla nova cogitatio,
+      <lb ed="#PL"/> nullum novum consilium; ideo non movetur in
+      <lb ed="#PL"/> tempore. Igitur immutabilis Deus est. Spiritus vcro
+      <lb ed="#PL"/> conditus, sicut est Angelorum, quanquam sine tem­
+      <lb ed="#PL"/> pore contemplentur Dci aeternitatem, veritatem,
+      <lb ed="#PL"/> cbaritatem; tamen quia ex tempore in inferioribus
+      <lb ed="#PL"/> jussa Dei perficiunt, jure creduntur moveri in tenni,
+      <lb ed="#PL"/> poro. Corpora vero sua in loco movent, dum descen­
+      <lb ed="#PL"/> dunt de caelo, et ascendunt in coelum. Spiritus itaque
+      <lb ed="#PL"/> hominum movetur in tempore, reminiscendo praeter­
+      <lb ed="#PL"/> ita, futura exspectando, aliquid novi discendo. Ne­
+      <lb ed="#PL"/> que enim, cum recordor aliquam lectionem aut ali­
+      <lb ed="#PL"/> quam civitatem, sicut motus est spiritus meus cogi- 
+      
+      
+      <lb ed="#PL"/>
+               <pb ed="#PL" n="747"/>
+      tando, ut h:rc recordaretur ex tempore, ita motus
+      <lb ed="#PL"/> « st ct loco. Quod si loco moveretur, nul in caelo aut
+      <lb ed="#PL"/> in terra moveretur; quia sinc cœlo et terra nullus est
+      <lb ed="#PL"/> incus. Uhi enim fuit ipse spiritus, in coelo, an in
+      <lb ed="#PL"/> terra, ut videret ipsam lectionem vel ipsam civita­
+      <lb ed="#PL"/> tem? Ergo si in nullo loco vidit ut recordaretur, in se
+      <lb ed="#PL"/> ipso vidit. Et quia initium habet cogitatio, et omne
+      <lb ed="#PL"/> quod initium habet, ct tempus habet; igitur secun­
+      <lb ed="#PL"/> dum supra dictam rationem, spiritus creatus per tem­
+      <lb ed="#PL"/> pus moveri potest, nou pcr locum : Spiritus creator,
+      <lb ed="#PL"/> sine tempore et loco : corpus autem, et loco et
+      <lb ed="#PL"/> tempore.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

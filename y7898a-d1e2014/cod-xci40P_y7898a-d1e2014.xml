@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 33</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 33</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2014">
+            <head xml:id="y7898a-d1e2014-Hd1e107">Quaestio 33</head>
+            <p xml:id="y7898a-d1e2014-d1e110">QUAEST. XXXIII. Quomodo poterat timere mortem
+      <lb ed="#PL"/> Adam, quam nullatenus sciebat?</p>
+            <p xml:id="y7898a-d1e2014-d1e115">RESP. Sicut ennio nos scimusresurrectionem, qnam
+      <lb ed="#PL"/> nunquam experti sumus, nec vidimus; ita ille scie­
+      <lb ed="#PL"/> bat mortem. Scimus quoque quod exiens anima a
+      <lb ed="#PL"/> corpore faciat mortem, et dum reversa fuerit ad cor­
+      <lb ed="#PL"/> pus suum, faciet resurrectionem ,Ecce scimus resur­
+      <lb ed="#PL"/> rectionem, quam nunquam experti sumus. Sic et ille
+      <lb ed="#PL"/> sciebat utique mortem, non adhuc per experientain,
+      <lb ed="#PL"/> sed per scientiam. Sciebat quippe quid esset vivere,
+      <lb ed="#PL"/> et per privationem vitae sciebat utique mortem, Sic­
+      <lb ed="#PL"/> ut sciuntur tenebrae per privationem lucis, et sicut
+      <lb ed="#PL"/> scitur silentium per privationem vocis, et sicut scitur
+      <lb ed="#PL"/> vacuum per privationem corporis; ita sciebat mortem
+      <lb ed="#PL"/> per privationem vitae.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

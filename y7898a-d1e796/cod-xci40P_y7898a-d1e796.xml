@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e796">
+            <head xml:id="y7898a-d1e796-Hd1e107">Quaestio 13</head>
+            <p xml:id="y7898a-d1e796-d1e110">QUAEST. XIII. Cum Judaei signum peterent a Do­
+      <lb ed="#PL"/> mnino Salvatore nostro, respondit illis: Generatio haec
+        <lb ed="#PL"/> adultera signum quaerit, et signum non dabiMur ei, nisi
+      <lb ed="#PL"/> tignum Jonae prophetae. Sicut enim Jonas fuit in ventre
+        <lb ed="#PL"/> ceti tribus diebus et tribus noctibus, ita erit et Filius homi­
+          <lb ed="#PL"/> nia in corde terrae tribus diebus et tribus noctibus (Matth.
+      <lb ed="#PL"/> XII, 39, 40). Approba ergo quomodo in inferno fuerit
+      <lb ed="#PL"/> tribus diebus, et tribus noctibus, cum die sexta sab­
+      <lb ed="#PL"/> bati quae est parasceve, hora nona emiserit spiritum,
+      <lb ed="#PL"/> et prima sahhati ante lucem quae est Dominica, re­
+      <lb ed="#PL"/> surrexerit. Ecce non sunt tres dies pleni, nec tres
+      <lb ed="#PL"/> noctes. ,</p>
+            <p xml:id="y7898a-d1e796-d1e136">RESP. Antiqui patres nostri hoc senserunt, ut pri­
+      <lb ed="#PL"/> ma dies quae est parascevea parte ultima, et ultima
+      <lb ed="#PL"/> quae est Dominica a parte prima, tota cnm noctihus
+      <lb ed="#PL"/> suis debeat computari : et ita denominando a partu
+      <lb ed="#PL"/> totum, tres dies fuerunt; ultima pars feriae sextae,
+      <lb ed="#PL"/> totuin sabbatum, et prima pars Dominicae cum suis
+      <lb ed="#PL"/> noctibus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

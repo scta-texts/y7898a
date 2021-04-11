@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2473">
+            <head xml:id="y7898a-d1e2473-Hd1e107">Quaestio 42</head>
+            <p xml:id="y7898a-d1e2473-d1e110">QUAEST. XLII. Cum rcquics non sit nisi post labe­
+      <lb ed="#PL"/> rem, cur Deus requiescere dicitur? An ct ipse opere
+      <lb ed="#PL"/> latigatus est, ut requiescere dicatur?</p>
+            <p xml:id="y7898a-d1e2473-d1e117">RESP. Non in aliqua creatura tanquam ejus bono
+      <lb ed="#PL"/> indigens requievit Deus, sed in se ipso. Denique non
+      <lb ed="#PL"/> in a ijuo dicrum, sed post sexti diei opera requiescere
+      <lb ed="#PL"/> 1legitur. Unde liquido apparct, nullam creaturam
+      <lb ed="#PL"/> Deum per indigentiam, sed sola bonitate fccisse.
+      <lb ed="#PL"/> Quod si in aliqua creatura requiesceret, aliquam crea­
+      <lb ed="#PL"/> turam indigens fecisset. Ergo quia nullam crcatu­
+      <lb ed="#PL"/> i ant per indigentiam fccil, proinde in nulla creatura
+      <lb ed="#PL"/> requievit. Nam quod dicit Scriptura, requievisse
+      <lb ed="#PL"/> Deum in dic septimo ab omnibus operibus suis quae
+      <lb ed="#PL"/> !; cit (Gen. II, 2); hoc intelligi posse arbitror, quod non
+      <lb ed="#PL"/> in ipso die, tanquam cjus bono indigens, quo sit bea­
+      <lb ed="#PL"/> tior, requieverit ; sed ipsum diem septimum, id est,
+      <lb ed="#PL"/> angelicam naturam adduxisse ad requiem suam : ut
+      <lb ed="#PL"/> viderent scilicet in Dco sicul omnem formandam crea­
+      <lb ed="#PL"/> turam 1, ita et illum viderent quod nullam creatu­
+      <lb ed="#PL"/> ram per indigentiam, sed sola bonitate fecisset. Hoc
+      <lb ed="#PL"/> cnim arbitror posse intelligi requiem Dei. Intelligitur
+      <lb ed="#PL"/> ct aliter rcquics Dei, id est, cum nos post bona opera
+      <lb ed="#PL"/> requiescere facit; seeundum illum modum quo dixit
+      <lb ed="#PL"/> Deus ad Abrabam, Nunc cognovi quod tineas Deum
+      <lb ed="#PL"/> (Id. XIII, 12); quod intelligitur, cognoscere fcci : ita
+      <lb ed="#PL"/> et hie intelligitur requiescere Deus, cum sanctis suis
+      <lb ed="#PL"/> requiem praestat. leem aliter requiescere dicitur
+      <lb ed="#PL"/> Deus a condendis novis creaturis; quia post editio-
+      <lb ed="#PL"/> nem sex dicrum operum , nullam deinceps condidit
+      <lb ed="#PL"/> creaturam. Nam quod ait, Pater meus usque modo
+        ope­
+        <lb ed="#PL"/> ratur, et egn operor (Joan. v, 17); non novam creatu­
+      <lb ed="#PL"/> ram condendo intelligitur, sed quum condidit admi­
+      <lb ed="#PL"/> nistrando.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

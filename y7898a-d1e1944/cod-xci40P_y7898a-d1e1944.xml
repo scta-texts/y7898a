@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 32</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 32</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e1944">
+            <head xml:id="y7898a-d1e1944-Hd1e107">Quaestio 32</head>
+            <p xml:id="y7898a-d1e1944-d1e110">QUAEST. XXXII. Cum Deus mineturhomini mortem
+      <lb ed="#PL"/> die quo cibum vetitum tetigerit, cur eo die mortuus
+      <lb ed="#PL"/> non fuit? Sic enim Scriptura dicit, In quacumque
+        <lb ed="#PL"/> die comederis ex eo, morte morieris (Gen. II, 17).</p>
+            <p xml:id="y7898a-d1e1944-d1e119">RESP. Quatuor esse mortes Scriptura sancta evi­
+      <lb ed="#PL"/> denter ostendit. Prima mors est animae, quae suum
+      <lb ed="#PL"/> deserit Creatorem : cum eniin deserit, peccat. Sine,
+      <lb ed="#PL"/> inquit Dominus in Evangelio, mortuos sepelire mor­
+        <lb ed="#PL"/> tuos suos ( Matth. VIII, 22). Ecce habes mortuos se­
+      <lb ed="#PL"/> cundum animam, scilicet sepelientes mortuos; et quos
+      <lb ed="#PL"/> sepeliunt, secundum carnem mortuos. Haec itaque
+      <lb ed="#PL"/> sententia duas mortes manifestissime docet, unam
+      <lb ed="#PL"/> animarum, alteram corporum. Tertia autem solius est
+      <lb ed="#PL"/> animae, quam, dum ex hoc corpore exierit, patitur;.
+      <lb ed="#PL"/> secundum illud quod in Evangelio de divite legimus,
+      <lb ed="#PL"/>
+      Pater Abraham, inquit dives, mitte Lazarum, ut digito
+        <lb ed="#PL"/> suo refrigeret linguam meam ; quia crucior in hac flam­
+      <lb ed="#PL"/>
+      ma (Luc. xvi, 24). Quarta est mors, cum anima re­
+      <lb ed="#PL"/> ceperit corpus, ut in ignem mittatur aeternum; se­
+      <lb ed="#PL"/> cundum illud quod Dominus in Evangelio de futuro
+      <lb ed="#PL"/> judicio ait, Ite in ignem aeternum, qui paratus eat dia­
+      <lb ed="#PL"/> bolo et angelis ejus (Matth. xxv, 41). Die itaque quo
+      <lb ed="#PL"/> peccavit Adam , in anima mortuus est. Sicut euim
+      <lb ed="#PL"/> corpus vivit ex anima, ita anima ut beatius vivat, vi­
+      <lb ed="#PL"/> vit ex Deo. Ergo deserta anima Adae a Deo, jure dici­
+      <lb ed="#PL"/> tur mortua prima morte, ex qua tres postea secutae
+      <lb ed="#PL"/> suut mortes. Ut enim hae subsequerentur, primo prae.
+      <lb ed="#PL"/> cessit desertio Dei, secundum quod eo die quo pec­
+      <lb ed="#PL"/> cavit Adam mortuus est.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

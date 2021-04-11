@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 40</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 40</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2311">
+            <head xml:id="y7898a-d1e2311-Hd1e107">Quaestio 40</head>
+            <p xml:id="y7898a-d1e2311-d1e110">QUAEST. XL. Numquidnam sic adduxit Deus ad
+      <lb ed="#PL"/> Adam cuncta animantia terrae, et universa volatilia
+      <lb ed="#PL"/> coeli (Gen. II, 19), quomodo adducunt aucupantes vel
+      <lb ed="#PL"/> venantes ad retia? An forsitan vox de nube facta est
+      <lb ed="#PL"/> jussionis, quam intelligerent tanquam rationales ani.
+      <lb ed="#PL"/> mae, et ea audita illi omnes obedirent1 ?</p>
+            <p xml:id="y7898a-d1e2311-d1e123">RESP. Non hoc acceperunt animantia vcl volatilia
+      <lb ed="#PL"/> cœli, ut sint rationis capacia, perquam obedire pos­
+      <lb ed="#PL"/> sint Creatori suo : in suo tamen genere obtemperant
+      <lb ed="#PL"/> Deo, non rationali voluntatis arbitrio, sed sicut mo­
+      <lb ed="#PL"/> vet ille omnia temporibus opportunis, nun ipse tem­
+      <lb ed="#PL"/> poraliter motus. Movet itaque se ipsum sine tempore
+      <lb ed="#PL"/> ei loco, movet creatum spiritum sine loco tempora­
+      <lb ed="#PL"/> liter, movet creaturam corpoream temporaliter et lo­
+      <lb ed="#PL"/> caliter. Praecedit igitur substantia quae temporaliter
+      <lb ed="#PL"/> tantum movetur, illarn quae temporaliter et localiter
+      <lb ed="#PL"/> movetur. Praecedit itaque substantia quae nec tempo­
+      <lb ed="#PL"/> raliter nec localiter movetur, illam quae tantum tem­
+      <lb ed="#PL"/> poraliter movetur. Ipse spiritus conditus movet se
+      <lb ed="#PL"/> ipsum per tempus sinc loco, movet corpus per tem.
+      <lb ed="#PL"/> pus et locum. Spiritus vero creator movet se ipsum
+      <lb ed="#PL"/> sine tempore et loco. Igitur spiritus rationalis, qui
+      <lb ed="#PL"/> est in hominibus, sive irrationalis, qui est in brulis,
+      <lb ed="#PL"/> etiam ejus jussis movetur. Sed rationalis habeL intel­
+      <lb ed="#PL"/> ligentiam, perquam judicare possit utrum jussis con.
+      <lb ed="#PL"/> sentiat, aut non consentiat. Animalia vero reptilia ac
+      <lb ed="#PL"/> volatilia non acceperunt hoc judicium; pro suo ta­
+      <lb ed="#PL"/> men genera atque natura jussu aliquo acta propel-
+      <lb ed="#PL"/> luntur. Undo angelica natura jussa Dei perficiens,
+      <lb ed="#PL"/> movet jussis omuc genus animantium, docens id quod
+      <lb ed="#PL"/> nescit. Si etenim homines possunt nonnulla anima­
+      <lb ed="#PL"/> tium genera mansueta facere, ita ut quasdam volun­
+      <lb ed="#PL"/> tates hominum faccre videautur, quanto magis hoc
+      <lb ed="#PL"/> Angeli possunt?</p>
+         </div>
+      </body>
+   </text>
+</TEI>

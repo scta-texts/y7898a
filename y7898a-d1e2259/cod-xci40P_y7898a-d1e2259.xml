@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 39</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 39</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e2259">
+            <head xml:id="y7898a-d1e2259-Hd1e107">Quaestio 39</head>
+            <p xml:id="y7898a-d1e2259-d1e110">QUAEST. XXXIX. Si omnia in numero, et mensura,
+      <lb ed="#PL"/> et pondere Deus disposuit, sicut sancta Scriptura te­ 
+      <lb ed="#PL"/> statur (Sap. XI, 21): ipsum numerum, et mensuram,
+      <lb ed="#PL"/> ct pondus ubi disposuit?</p>
+            <p xml:id="y7898a-d1e2259-d1e119">RESP. Numerus et mensura ct pondus ipse Deus
+      <lb ed="#PL"/> est. Ipse est numerus sine numero, a quo est oris
+      <lb ed="#PL"/> numerus. Ipse est mensura sinc mensura, a quo est
+      <lb ed="#PL"/> omnis mensura. Ipse est pondus sinc pondere, a quo
+      <lb ed="#PL"/> est omne pondus. Omnia ergo in numero, et mensura,
+      <lb ed="#PL"/> et pondere disposuit, tanquam si diceret, Omnia in se
+      <lb ed="#PL"/> disposuit. Nun enim creaturam cam extra se, aut ali­
+      <lb ed="#PL"/> cubi vidit, ut, sicut homines, nfmoria retineat quae
+      <lb ed="#PL"/> faceret. Omuis igitur causa creaturae, voluntas est
+      <lb ed="#PL"/> Creatoris. Iloc ibi est voluntas, quod natura. Sic ta­
+      <lb ed="#PL"/> men alterna est illi natura, sic est aeterna voluntas.
+      <lb ed="#PL"/> Non enim accidit Deo nova aliqua cogitatio ad for­
+      <lb ed="#PL"/> mandas creaturas. Proinde omnia in se Trinitas
+      <lb ed="#PL"/> Deus disposuit, quia in se cuncta Imbui, quae fecit. In­
+      <lb ed="#PL"/> telligitur et aliter: omnia ill numero, et mensura, ct
+      <lb ed="#PL"/> poudcre disposuit; id est, omnia quae fecit, nume­
+      <lb ed="#PL"/> rum, et mensuram, et pondus habent.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

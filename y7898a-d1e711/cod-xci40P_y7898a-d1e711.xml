@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e711">
+            <head xml:id="y7898a-d1e711-Hd1e107">Quaestio 11</head>
+            <p xml:id="y7898a-d1e711-d1e110">QUAEST. XI. Quomodo intelligendum est illud qnod
+      <lb ed="#PL"/> Joannes evangelista de Spiritu sancto dicit, quod non
+      <lb ed="#PL"/> loquetur a semetipso. Sic enim ait: Non etiim loquetur
+        <lb ed="#PL"/> a semetipso ; sed quacumque audiet, loquetur (Joan.
+      <lb ed="#PL"/> XVI, 13).</p>
+            <p xml:id="y7898a-d1e711-d1e121">RESP. Non loquetur a semetipso, quia non est a
+      <lb ed="#PL"/> semetipso. Pater enim a nullo est natus; Filius a Pa­
+      <lb ed="#PL"/> tre est genitus; Spiritus sanctus a Patre et Filio pro­
+      <lb ed="#PL"/> cedens. Ideo non loquitur a semetipso; sed quaecum­
+      <lb ed="#PL"/> que audit, loquitur. Audire illi esse est; esse autem
+      <lb ed="#PL"/> a se non cst, sed a Patre: ideo quaecumque audit, lo­
+      <lb ed="#PL"/> quitur.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

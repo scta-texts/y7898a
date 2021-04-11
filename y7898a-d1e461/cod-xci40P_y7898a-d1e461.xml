@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Augustine">Augustinus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>           <resp>Continued OCR correction</resp>         </respStmt>         <!--<respStmt>                <p>Derived from Initial OCR correction in          https://raw.githubusercontent.com/OpenGreekAndLatin/patrologia_latina-dev/8c651f859f821f0868755596f1a513946ca25350/volumes/PL40/PL40.xml</p> -->
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-04-11">April 11, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="PL" n="cod-xci40P">PL 40</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-04-11" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on"/>
+      </front>
+      <body>
+         <div xml:id="y7898a-d1e461">
+            <head xml:id="y7898a-d1e461-Hd1e107">Quaestio 5</head>
+            <p xml:id="y7898a-d1e461-d1e110">
+      QUAEST. V. Video te, dum de uno Filio Dei inquireres,
+      <lb ed="#PL"/> duos introducere voluisse, ut dicas Filium Dei, et Ii­
+      <lb ed="#PL"/> lium hominis.</p>
+            <p xml:id="y7898a-d1e461-d1e117">RESP. Non sunt duo filii, sed unus. Quia ille qui
+      <lb ed="#PL"/> erat Dei Filias, lactus est filius hominis in unitate per­
+      <lb ed="#PL"/> sonae. Qnia sicut anima et caro unus est homo, ita
+      <lb ed="#PL"/> Verhum et homo unus est Christus. Duas substantias
+      <lb ed="#PL"/> accipimus in uno Filio Dei, unam deitatis, alteram
+      <lb ed="#PL"/> humanitatis, non duas personas. Igitur, si dixerimus
+      <lb ed="#PL"/> duas esse personas, introducemus duos filios; et jam
+      <lb ed="#PL"/> non erit Trinitas, sed quaternitas. Profecto enim per
+      <lb ed="#PL"/> id quod Deus est, aequalis semper Patri, ubique prae­
+      <lb ed="#PL"/> sens est, et in caelo totus, et in terra totus, et nullo
+      <lb ed="#PL"/> contentus loco. Per id quod homo, et passus, et mor­
+      <lb ed="#PL"/> tuus, et resurrexit, ct ascendit in coelum, sedetquo
+      <lb ed="#PL"/> ad dexteram Patris : et sic veniet ad judicandum vi­
+      <lb ed="#PL"/> vos et mortuos, quemadmodum visus est ire in cae­
+      <lb ed="#PL"/> lum, in eadem forma carnis atque substantia; cui
+      <lb ed="#PL"/> profecto immortalitatem dedit, naturam non ahstulil.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
